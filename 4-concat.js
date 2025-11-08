@@ -6,3 +6,4 @@ function multiArg(firstArg, secondArg) {
 multiArg('c', 'cool');
 multiArg('c');
 multiArg();
+multiArg("Python", "Fun");
