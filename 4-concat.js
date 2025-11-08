@@ -1,9 +1,2 @@
-function multiArg(firstArg, secondArg) {
-
-    console.log(`${firstArg} is ${secondArg}`);
-}
-
-multiArg('c', 'cool');
-multiArg('c');
-multiArg();
-multiArg("Python", "Fun");
+#!/usr/bin/node
+console.log(`${process.argv[2]} is ${process.argv[3]}`);
