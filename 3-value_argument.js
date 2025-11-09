@@ -1,7 +1,7 @@
-function script(firstArg, secondArg) {
-    console.log(`${firstArg}`);
-    console.log(`${secondArg}`);
+const arg = process.argv[2];
 
+if (arg === undefined) {
+    console.log("No argument");
+} else {
+    console.log(arg);
 }
-
-script('No argument', 'School School',);
